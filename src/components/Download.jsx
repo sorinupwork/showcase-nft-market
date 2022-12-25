@@ -17,7 +17,12 @@ const Download = () => {
         </div>
 
         <button
-          onClick={() => window.open("", "_blank")}
+          onClick={() =>
+            window.open(
+              "https://github.com/sorinupwork/showcase-nft-market",
+              "_blank"
+            )
+          }
           className={styles.btnPrimary}
         >
           Source Code
